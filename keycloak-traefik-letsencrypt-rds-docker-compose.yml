@@ -56,7 +56,8 @@ services:
       - "traefik.http.middlewares.compresstraefik.compress=true"
     restart: unless-stopped
     depends_on:
-      - traefik
+      traefik:
+        condition: service_healthy
 
   traefik:
     # Image tag (replace with yours)
