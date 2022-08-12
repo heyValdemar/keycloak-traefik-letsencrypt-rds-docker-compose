@@ -4,7 +4,7 @@ Install Docker Engine and Docker Compose by following my [guide](https://www.hey
 
 Deploy Keycloak server with a Docker Compose using the command:
 
-`docker-compose -f keycloak-traefik-letsencrypt-rds-docker-compose.yml -p keycloak up -d`
+`docker compose -f keycloak-traefik-letsencrypt-rds-docker-compose.yml -p keycloak up -d`
 
 # Author
 
