@@ -7,7 +7,6 @@ Deploy Keycloak server with a Docker Compose using the command:
 `docker compose -f keycloak-traefik-letsencrypt-rds-docker-compose.yml -p keycloak up -d`
 
 # Author
-
 hey, I’m Vladimir Mikhalev, but my friends call me Valdemar.
 
 🌐 My [website](https://www.heyvaldemar.com/) with detailed IT guides\
