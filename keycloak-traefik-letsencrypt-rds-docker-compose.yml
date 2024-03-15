@@ -1,12 +1,21 @@
 # Keycloak with Amazon RDS and Let's Encrypt in a Docker Compose
 
+# Install Docker Engine and Docker Compose by following my guide: https://www.heyvaldemar.com/install-docker-engine-and-docker-compose-on-ubuntu-server/
+
+# Deploy Keycloak server with a Docker Compose using the command:
+# docker compose -f keycloak-traefik-letsencrypt-rds-docker-compose.yml -p keycloak up -d
+
 # Author
-# hey, I’m Vladimir Mikhalev, but my friends call me Valdemar.
+# I’m Vladimir Mikhalev, the Docker Captain, but my friends can call me Valdemar.
+# https://www.docker.com/captains/vladimir-mikhalev/
 
 # My website with detailed IT guides: https://www.heyvaldemar.com/
 # Follow me on YouTube: https://www.youtube.com/channel/UCf85kQ0u1sYTTTyKVpxrlyQ?sub_confirmation=1
 # Follow me on Twitter: https://twitter.com/heyValdemar
 # Follow me on Instagram: https://www.instagram.com/heyvaldemar/
+# Follow me on Threads: https://www.threads.net/@heyvaldemar
+# Follow me on Mastodon: https://mastodon.social/@heyvaldemar
+# Follow me on Bluesky: https://bsky.app/profile/heyvaldemar.bsky.social
 # Follow me on Facebook: https://www.facebook.com/heyValdemarFB/
 # Follow me on TikTok: https://www.tiktok.com/@heyvaldemar
 # Follow me on LinkedIn: https://www.linkedin.com/in/heyvaldemar/
@@ -22,11 +31,6 @@
 # Support on BuyMeaCoffee: https://www.buymeacoffee.com/heyValdemar
 # Support on Ko-fi: https://ko-fi.com/heyValdemar
 # Support on PayPal: https://www.paypal.com/paypalme/heyValdemarCOM
-
-# Install Docker Engine and Docker Compose by following my guide: https://www.heyvaldemar.com/install-docker-engine-and-docker-compose-on-ubuntu-server/
-
-# Deploy Keycloak server with a Docker Compose using the command:
-# docker compose -f keycloak-traefik-letsencrypt-rds-docker-compose.yml -p keycloak up -d
 
 volumes:
   traefik-certificates:
